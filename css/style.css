@@ -4,7 +4,7 @@
 .logo{
     color: red;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 40px;
     font-family: raleway;
     font-weight: bold;
 }
@@ -14,7 +14,7 @@ ul{
 }
 li{
     margin-right: 70px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .list1{
     color: black;
@@ -57,11 +57,40 @@ li{
     padding-top: 127px;
     padding-left: 110px;
 }
+.input-list{
+    width: 325px;
+    height: 35px;
+    color: grey;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
 label{
     margin-bottom: 10px;
+    font-family: raleway;
+    font-weight: bold;
 }
-.input-list{
-    width: 320px;
-    height: 30px;
-    color: grey;
+.buttonsearch{
+    border-radius: 3px;
+    background-color: #FA6980;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    border: none;
+}
+.button{
+    margin-top: 5px;
+    margin-left: 110px;
+}
+.section2-div{
+    display: flex;
+}
+.paragraph{
+    width: 330px;
+    height: 170px;
+    font-family: tahoma;
+    font-size: 13px;
+    color: #A6ADB4;
+    line-height: 23px;
 }
