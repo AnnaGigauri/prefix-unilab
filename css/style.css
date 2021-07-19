@@ -39,6 +39,7 @@ li{
 .section-block{
     display: flex;
     flex-wrap: wrap;
+    background-color: white;
 }
 .main-img{
     height: 500px;
@@ -85,6 +86,20 @@ label{
 }
 .section2-div{
     display: flex;
+    margin-top: 100px;
+    padding: 40px;
+}
+.div-section{
+    margin-left: 100px;
+}
+body{
+    background-color: #F6F8F9;
+}
+.paragraph1{
+    font-size: 20px;
+    font-family: tahoma;
+    width: 320px;
+    margin-top: 19px;
 }
 .paragraph{
     width: 330px;
@@ -93,4 +108,43 @@ label{
     font-size: 13px;
     color: #A6ADB4;
     line-height: 23px;
+}
+.footerdiv{
+    background-color: #A6ADB4;
+    display: flex;
+}
+.footerimg{
+    margin-top: 90px;
+    margin-left: 90px;
+}
+.footerdiv2{
+    margin-top: 90px;
+    margin-left: 220px;
+    margin-bottom: 160px;
+}
+.footer-input{
+    background-color: #A6ADB4;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    max-width: 300px;
+    width: 100%;
+    height: 50px;
+}
+.footertitle{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: tahoma;
+    color: #CBD0D3;
+}
+.footerdiv3{
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.fa-instagram,
+.fa-twitter,
+.fa-facebook-f,
+.fa-globe-americas{
+    font-size: 20px;
+    margin-left: 40px;
+    color: #fff;
 }
